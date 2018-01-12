@@ -1,0 +1,171 @@
+\documentclass[10pt]{article}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\setlength{\textheight}{9in} \setlength{\topmargin}{-.5in}
+\setlength{\textwidth}{6.5in} \setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+
+\title{Syllabus \\ COMP 337 \\ Computer Communications}
+\author{  }
+\date{Spring 2018}
+
+\begin{document}
+\maketitle
+
+\section{Logistics}
+\begin{itemize}
+\item \textbf{Where: }Center for Science and Business (CSB), Room 303
+\item \textbf{When: } MTWF 11--11:50am
+\item \textbf{Instructor: } James \textit{Logan} Mayfield
+\begin{itemize}
+\item \textit{Office: } Center for Science and Business (CSB), Room 344
+\item \textit{Phone: } 309-457-2200 % chktex 8
+\item \textit{Website: } \url{http://jlmayfield.github.io/}
+\item \textit{Email: } lmayfield \textit{at} monmouthcollege \textit{dot} edu
+\item \textit{Office Hours: }  By Appointment.
+\end{itemize}
+\item \textbf{Website: } \url{http://jlmayfield.github.io/teaching/COMP337/}
+\item \textbf{Credits: } 1 course credit
+\end{itemize}
+\emph{Note: This Syllabus is subject to change based on specific class needs. Significant deviations from the syllabus will be discussed in class.}
+
+\section{Textbook}
+
+\noindent
+Kurose, James F. \& Ross, Keith W. \textit{Computer Networking: A Top-Down Approach.} Pearson. 2017. ISBN:0-13-359414-9. % chktex 8
+
+
+\section{Description and Content}
+
+In this course we examine the technology and fundamental principles governing communications between computers, i.e. computer networking. Careful attention will be paid to the modern Internet and the technologies that support it.  Students will use a combination of hands on network analysis and programming along with working problems from the book to explore the top four layers of the five protocol layers of computer networking: the application layer, transport layer, network layer, and the link layer. This study encompasses the first six chapters of the text. Time permitting, we'll examine basic issues in network security, the eighth chapter of the text.
+
+\section{Expectations and Policies}
+
+Students are expected to carry themselves in a mature and professional manner in this course. Towards this end, there are a few classroom policies by which every student is expected to abide.
+\begin{itemize}
+
+\item \textit{Late Assignments: } In general, late assignments will \textit{not} be accepted.  Students who feel they have a justified reason for submitting an assignment late may set up an appointment to meet with the instructor and plead their case.  Students are more likely to get extensions on assignments when they are asked for in advance rather than the day the assignment is due.
+
+\item \textit{Attendance: } \textbf{Repeated absences and late arrivals to class will quickly reduce a student's participation grade to zero.}  The occasional late arrival or missed class is one thing, but being habitually late and regularly missing classes is disruptive and not fair to your classmates.
+
+\end{itemize}
+
+
+\subsection{Collaboration}
+
+In general, students are encouraged to make use of the resources available to them.  This means it is OK to seek help from a friend, the tutor, the instructor, the internet, etc.  However, \textit{copying of answers and any act worthy of the label of ``cheating'' or ``plagiarism'' is never permissible!. Students should always be able to reproduce an answer on their own, and if they cannot then they likely \textbf{do not really known the material.}} All of the Monmouth College rules on academic dishonesty apply.  A student found in violation of the rules should be prepared to face the consequences of their actions. If a student needs help understanding the rules, then please seek out the instructor before doing something that might violate academic honesty policies.
+
+\section{Grades}
+
+This courses uses a standard grading scale.  Assignments and final grades will not be curved except in rare cases when its deemed necessary by the instructor.  Percentage grades translate to letter grades as follows:
+
+\begin{center}
+\begin{small}
+\begin{tabular}{lcl}
+Score & & Grade \\ \toprule
+94--100 & & A \\
+90--93 & & A- \\
+88--89 & & B+ \\
+82--87 & & B \\
+80--81 & & B- \\
+78--79 & & C+ \\
+72--77 & & C \\
+70--71 & & C- \\
+68--69 & & D+ \\
+62--67 & & D \\
+60--61 & & D- \\
+0--59 & & F
+\end{tabular}
+\end{small}
+\end{center}
+
+
+You are always welcome to challenge a grade that you feel is unfair or calculated incorrectly.  Mistakes made in your favor will never be corrected to lower your grade.  Mistakes made not in your favor will be corrected.  \textit{Basically, after the initial grading, your score can only go up as the result of a challenge.}
+
+\subsection{Workload}
+% number of/details on midterms, finals, project, homeworks, quizes, etc
+
+The course workload is as follows:
+\begin{center}
+  \begin{tabular}{ll}
+    \underline{Category} & \underline{Number of Assignments} \\
+    Problem Sets & 6 \\
+    Wireshark/Hands-on Labs & 7 \\
+    Review Question Sets & 7 \\
+    Exams & 7 \\
+  \end{tabular}
+\end{center}
+
+Every chapter will have a hands-on exercise using the Wireshark packet sniffer and other networking software. The results of these exercise will be presented to the class and
+a class discussion will follow the presentations.
+
+In addition to readings, review questions, and Wireshark labs, students will be assigned problems from each chapter. These problems will mirror the types of questions they can expect to be asked on the exam that will accompany each chapter except two and eight. For these chapters students will carry out programming projects in place of an exam. These programs count towards their exam grade.
+
+
+\subsubsection{Review Questions and Reading}
+
+This class will mostly run as a flipped classroom. Students are expected to do readings from the text prior to class and should be prepared to answer assigned \textit{review questions} for the readings, and provide page numbers from the text where answers or relevant information can be found. Every student must give answers to review questions at some point and should participate in follow up discussions. Review questions will be checked on occasion and count towards the class participation grade.
+
+\subsection{Grade Weights}
+
+Your final grade is based on a weighted average based on certain  assignment categories.  You should be able to estimate your current grade based on your scores and these weights.  You may always visit the instructor \textit{outside of class time} to discuss your current standing.
+
+\begin{center}
+  \begin{tabular}{ll}
+  \underline{Category} & \underline{Weight} \\
+    Exams & 35\% \\ %5 each
+    Problem Sets &  15\% \\ %1.5 each
+    Wireshark Labs & 35 \% \\ %5 each
+    Participation & 15 \%
+  \end{tabular}
+\end{center}
+
+
+\subsection{Course Engagement Expectations}
+
+The weekly workload for this course will vary by student but on average should be about 13 hours per week.  The following table provides a rough estimate of the distribution of this time over different course components for a 16 week semester.
+\begin{center}
+\begin{tabular}{ll}
+\underline{Assignment Type}  & \underline{Time/week} \\
+Class   & 4 hours/week \\
+Reading \& Review  & 2 hours/week \\
+Problem Sets & 2 hours/week \\
+Exam Study Time & 1 hours/week \\
+Projects  & 3 hours/week \\
+\bottomrule
+ & 12 hours/week
+\end{tabular}
+\end{center}
+
+
+\subsection{Calendar}
+
+\textit{This calendar is subject to change based on the circumstances of the course.} You'll find a calendar of requried readings and review questions on the course website. This calendar covers the projected due dates of other assignments.
+
+\begin{center}
+\begin{tabular}{lll}
+\underline{Week} & \underline{Dates} & \underline{Assignments Due}  \\
+1 & 1/15 --- 1/19 &  \\
+2 & 1/22 --- 1/26 & WireShark 1 (T). PSet 1(F). \\
+3 & 1/29 --- 2/2 & Exam 1 (W)  \\
+4 & 2/5 --- 2/9 & WireShark 2 (F).\\
+5 & 2/12 --- 2/16 &  PSet 2 (T). Exam 2 (F). \\
+6 & 2/19 --- 2/23 & WireShark 3 (F).  \\
+7 & 2/26 --- 3/2 &  PSet 3 (M). Exam 3 (F).   \\
+8 & 3/5 --- 3/9 & SPRING BREAK \\
+9 & 3/12 --- 3/16 &   \\
+10 & 3/19 --- 3/23 & WireShark 4 (M). PSet 4 (W). \\
+11 & 3/26 --- 3/29 & Exam 4 (M). EASTER (F)    \\
+12 & 4/3 --- 4/6 & EASTER (M). WireShark 5 (F). PSet 5 (F).   \\
+13 & 4/9 --- 4/13 &  Exam 5 (W).  \\
+14 & 4/16 --- 4/20 &  WireShark 6 (W). PSet 6 (F). \\
+15 & 4/23 --- 4/27 & SCHOLAR'S DAY (Tu).  Exam 6 (W).   \\
+16 & 4/30 --- 5/2 & READING DAY (Th)  \\
+Final's Week & 5/9 (8am --- 11am) & WireShark 7. Exam 7.    \\
+\end{tabular}
+\end{center}
+
+\end{document}
